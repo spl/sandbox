@@ -5,7 +5,7 @@ Introduction
 
 I wanted to see what it would take to lift the similarities of Alternative and
 MonadPlus to the constraint level using the new ConstraintKinds extension in
-GHC.
+GHC. I used GHC version 7.3.20111026 (from HEAD).
 
 \begin{code}
 {-# LANGUAGE ConstraintKinds #-}

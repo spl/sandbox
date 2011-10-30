@@ -47,7 +47,7 @@ msum1 = foldr plus1 zero1
 In GHCi, we see the following type, and we have no way to instantiate |ctx|:
 
 \begin{verbatim}
-*ConstraintKindsAlternativeMonad> :t foldr plus1 zero1
+*ConstraintKindsAlternativeMonadPlus> :t foldr plus1 zero1
 foldr plus1 zero1 :: (Plus1 ctx1 f, Plus1 ctx f) => [f a] -> f a
 \end{verbatim}
 
